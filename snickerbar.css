@@ -1,0 +1,38 @@
+[data-id='snickerbar'].body .container {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: auto;
+  padding: .5em .75em;
+  gap: .6em;
+}
+
+[data-id='snickerbar'] .container:has(.noIcon) {
+  text-align: center;
+}
+
+[data-id='snickerbar'] img {
+  display: block;
+  width: 1.4em;
+  height: auto;
+}
+
+[data-id='snickerbar'] #info {
+  color: #059;
+  background-color: #BEF;
+}
+
+[data-id='snickerbar'] #success {
+  color: #270;
+  background-color: #DFF2BF;
+}
+
+[data-id='snickerbar'] #warning {
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+
+[data-id='snickerbar'] #error {
+  color: #D8000C;
+  background-color: #FFBABA;
+}
